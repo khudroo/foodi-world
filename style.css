@@ -1,0 +1,205 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 58px;
+    font-weight: 700;
+    color: #6d6d6d;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+p {
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: -10px;
+}
+img{
+    max-width: 100%;
+}
+.flex-area{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.half-width{
+    width: 40%;
+    padding: 5%;
+}
+.text-color{
+    color: #ff00aa;
+}
+.foodi-btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(#f800a5, #ff5fcf);
+    padding: 10px 40px;
+    border-radius: 100px;
+}
+.foodi-btn:hover{
+    background-image: linear-gradient(#ff5fcf, #f800a5);
+}
+
+
+/* get-foodi  */
+.foodi-bg1{
+    background-image: linear-gradient(rgb(253, 237, 246), rgb(255, 255, 255));
+}
+.foodi-bg{
+    background: url(img/foodi-bg.jpg) no-repeat;
+}
+.half-width.about img {
+    width: 99%;
+}
+.half-width.about {
+    height: 145px;
+}
+.half-width p {
+    margin-bottom: 65px;
+}
+
+
+/* our-recipe */
+.recipe-contnet{
+    width: 90%;
+    margin: 0 auto;
+}
+.recipe-title h1 {
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.content-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.our-recipe{
+    text-align: center;
+}
+.content-title{
+    text-align: left;
+}
+.fixed-width img {
+    box-shadow: 0px 0px 4px #d6cfcf;
+    border-radius: 10px;
+    width: 259px;
+    padding: 7px;
+}
+
+
+
+/* follower */
+.follower{
+    text-align: center;
+    box-shadow: 10px 10px 40px #dedbdb;
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 28px;
+    padding-top: 0px;
+}
+.third-width h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+.fixed-width, .third-width {
+    width: 30%;
+    box-shadow: 10px 10px 40px #dedbdb;
+    padding: 3%;
+    margin: 0px 20px;
+    border-radius: 28px;    
+}
+
+.youtube,.instagram,.dribble,.third-width {
+    box-shadow: none;
+}
+
+
+/* reviews */
+.reviews{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+section.reviews h1 {
+    margin-top: 100px;
+    margin-bottom: -10px;
+}
+.review-area{
+    justify-content: center;
+}
+.psot-image.img-width {
+    padding-bottom: 0px;
+    margin-bottom: -70px;
+}
+.psot-image > img {
+    padding: 30px 75px;
+}
+.img-width img{
+    width: 150px;
+}
+img.big-img {
+    width: 200px;
+}
+.review-content h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #555;
+}
+.review-content p {
+    width: 765px;
+    margin: 0 auto;
+}
+
+
+/* subcribe */
+
+.sub-bg{
+    background-image: linear-gradient(hsl(0, 0%, 99%), #fcccec);
+}
+section.flex-area.subcribe {
+    padding-bottom: 0px;
+}
+section.flex-area.subcribe p {
+    margin-bottom: 0px;
+}
+.subscribe-now.flex-area input[type="email"] {
+    outline: none;
+    border: .3px solid #efefef;
+    box-shadow: 0px 0px 10px #ececec;
+    border-radius: 50px;
+    padding-right: 166px;
+    padding-left: 23px;
+}
+.subscribe-now.flex-area .foodi-btn {
+    margin-left: -65px;
+}
+.sub-img img{
+    width: 500px;
+}
+
+
+
+/* footer */
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bg-footer{
+    background: #0b0E17;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.footer h3{
+    color: rgb(133, 133, 133);
+    font-size: 35px;
+}
+.footer p{
+    color: white;
+}
